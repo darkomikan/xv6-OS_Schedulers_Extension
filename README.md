@@ -5,6 +5,7 @@ Schedulers extension for the xv6 operating system
 - Shortest Job First (SJF) Non-Preemptive
 - Shortest Job First (SJF) Preemptive
 - Completely Fair Scheduler (CFS)
+Binary search tree data structure is used for waiting processes list.
 
 # Tests (average results in ticks, less->better)
 Number of CPUs: 1
@@ -20,7 +21,7 @@ Number of CPUs: 2
 - CFS               = 1522 ticks
 
 Number of CPUs: 4
-- DEFAULT_SCHEDULER = 1266 ticks
+- DEFAULT_SCHEDULER = 1366 ticks
 - SJF_NONPREEMPTIVE = 1306 ticks
 - SJF_PREEMPTIVE    = 1244 ticks
 - CFS               = 1339 ticks
